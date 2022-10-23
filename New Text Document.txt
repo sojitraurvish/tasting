@@ -1,0 +1,45 @@
+mine@DESKTOP-MH89FJQ MINGW64 ~/Desktop/git
+$ git config --global user.name "urvish"
+
+mine@DESKTOP-MH89FJQ MINGW64 ~/Desktop/git
+$ git config --global user.email "urvishsojitra0@gmail.com"
+
+mine@DESKTOP-MH89FJQ MINGW64 ~/Desktop/git
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=urvish
+user.email=urvishsojitra0@gmail.com
+
+mine@DESKTOP-MH89FJQ MINGW64 ~/Desktop/git
+$ git config --global core,editor vim
+error: key does not contain a section: core,editor
+
+mine@DESKTOP-MH89FJQ MINGW64 ~/Desktop/git
+$ git config --global core,editor emacs
+error: key does not contain a section: core,editor
+
+mine@DESKTOP-MH89FJQ MINGW64 ~/Desktop/git
+$ git config --global core.editor emacs
+
+mine@DESKTOP-MH89FJQ MINGW64 ~/Desktop/git
+$ git config --global core.editor vim
+
+mine@DESKTOP-MH89FJQ MINGW64 ~/Desktop/git
+$ git config user.name
+urvish
+
+mine@DESKTOP-MH89FJQ MINGW64 ~/Desktop/git
+$
